@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 40px;
 }
+h1 span{
+    color: violet;
+}
 .blue-color{
     color: violet;
 }
@@ -25,5 +28,34 @@ section{
     padding: 4px 8px;
     color: white;
     font-weight: 700;
+    border-radius: 5px;
+}
+#center{
+    text-align: center;
+}
+#color{
+    color: violet;
+}
+#b-c-three{
+    text-decoration: none;
+    background-image: linear-gradient(whitesmoke, tomato);
+    padding: 40px;
+    margin: 10px;
+    height: 50%;
+    border-radius: 5px;
+
+}
+#b-c-two{
+    text-decoration: none;
+    background-image: linear-gradient(blue,tomato);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#b-c-one{
+    text-decoration: none;
+    background-image: linear-gradient(gray,tomato);
+    padding: 40px;
+    margin: 10px;
     border-radius: 5px;
 }
